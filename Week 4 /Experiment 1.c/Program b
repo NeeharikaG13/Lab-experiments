@@ -1,0 +1,19 @@
+#include<stdio.h>
+int main()
+{
+  float A,B,C,result;
+  int D;
+  printf("\n Enter value of A");
+  scanf("%f",&A);
+  printf("\n Enter value of B");
+  scanf("%f",&B);
+  printf("\n Enter value of C");
+  scanf("%f",&C);
+  printf("\n Enter value of D");
+  scanf("%d",&D);
+  //operator precedence /,* from left to right 
+  //+,- evaluated from left to right
+  result = A/B*C-B+A*D/3;
+  printf("\n A/B*C-B+A*D/3 is %f",result);
+  return 0;
+}
