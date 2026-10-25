@@ -1,0 +1,46 @@
+#include <stdio.h>
+
+int main()
+{
+    int a, b, c, d, max, min;
+    printf("Enter four numbers");
+    scanf("%d%d%d%d", &a, &b, &c, &d);
+
+    max = a;
+    min = a;
+
+    if (b > max)
+        max = b;
+    else
+        max = a;
+
+    if (c > max)
+        max = c;
+    else
+        max = a;
+
+    if (d > max)
+        max = d;
+    else
+        max = a;
+
+    if (b < min)
+        min = b;
+    else
+        min = a;
+
+    if (c < min)
+        min = c;
+    else
+        min = a;
+
+    if (d < min)
+        min = d;
+    else
+        min = a;
+
+    printf("Maximum = %d\n", max);
+    printf("Minimum = %d\n", min);
+    return 0;
+}
+    
