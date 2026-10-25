@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main()
+{
+  int i,J;
+  printf("\n Enter value of i");
+  scanf("%d",&i);
+  J = (i++)+(++i);
+  printf("(i++)+(++i)=%d",J);
+  printf("\n i=%d",i);
+  return 0;
+}
