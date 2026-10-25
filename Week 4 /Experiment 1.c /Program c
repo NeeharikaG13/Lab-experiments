@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+  float A,result;
+  int B;
+  printf("\n Enter value of A");
+  scanf("%f",&A);
+  printf("\n Enter value of B");
+  scanf("%d",&B);
+  printf("%f+++%d---%f=",A,B,A);
+  result=A+++B---A;
+  printf("%f",result);
+  printf("\n A=%f\t B=%d",A,B);
+  return 0;
+}
